@@ -1,0 +1,9 @@
+INCLUDE options/options.makejail
+
+PKG py39-glances py39-bottle
+
+COPY usr
+
+CMD pw useradd -n glances -c "An eye on your system" -d /var/db/glances -s /bin/sh
+CMD mkdir -p /var/db/glances
+CMD chown glances:glances /var/db/glances

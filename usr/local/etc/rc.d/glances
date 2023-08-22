@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# PROVIDE: glances
+# REQUIRE: DAEMON NETWORKING LOGIN
+# KEYWORD: shutdown
+
+#
+# Configuration settings for glances in /etc/rc.conf
+#
+# glances_enable (bool):     Enable glances. (default=NO)
+# glances_user (str):        User to run named as. (default=glances)
+# glances_logfile (str):     Full path to the log file. (default=/var/log/glances.log)
+# glances_args (str):        Additional arguments.
+#
+
+. /etc/rc.subr
+
+name=glances
+rcvar=${name}_enable
+
+start_cmd="glances_start"
+
+load_rc_config ${name}
+
+: ${glances_enable:=NO}
+: ${glances_user=glances}
+: ${glances_logfile=/var/log/glances.log}
+
+pidfile="/var/run/${name}.pid"
+procname="/usr/local/bin/${name}"
+command_interpreter="/usr/local/bin/python3.9"
+
+glances_start()
+{
+	echo "Starting ${name}."
+	/usr/sbin/daemon -c -p "${pidfile}" -o "${glances_logfile}" -u "${glances_user}" "${command_interpreter}" "${procname}" --webserver ${glances_args}
+}
+
+run_rc_command "$1"
