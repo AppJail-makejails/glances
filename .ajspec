@@ -1,0 +1,7 @@
+tags: 13.2
+13.2.arch: amd64
+13.2.name: "glances"
+13.2.timestamp.amd64: 1692712923
+13.2.sum.amd64: 16725414d89f3b5045eddbcdffe201829f21ee87d607ea91a4b7432f9829b2cd
+13.2.size.amd64: 42132968
+13.2.source.amd64: "https://drive.google.com/uc?export=download&id=10f0UOsLukTRc0HKTQYi9iDMgS-z0LF8Z"
