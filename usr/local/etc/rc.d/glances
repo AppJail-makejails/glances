@@ -8,7 +8,7 @@
 # Configuration settings for glances in /etc/rc.conf
 #
 # glances_enable (bool):     Enable glances. (default=NO)
-# glances_user (str):        User to run named as. (default=glances)
+# glances_user (str):        User to run glances as. (default=glances)
 # glances_logfile (str):     Full path to the log file. (default=/var/log/glances.log)
 # glances_args (str):        Additional arguments.
 #
