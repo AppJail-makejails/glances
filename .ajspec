@@ -1,8 +1,8 @@
 tags+: 13.2
 13.2.arch: amd64
 13.2.name: "glances"
-13.2.timestamp.amd64: 1697290828
-13.2.sum.amd64: 3f12fb9161574c13dd9d5b50a328ea3bbc5831d4803abb526013e08c03f49adf
-13.2.size.amd64: 42124604
+13.2.timestamp.amd64: 1698683743
+13.2.sum.amd64: 4f0da803da4eeff1ef033bf7fdd5cce7fc670eec41b9b3d0e154303ae0a16be6
+13.2.size.amd64: 41606296
 13.2.source.amd64: https://images.all101bsd.download/glances/13.2-amd64-image.appjail
 13.2.source.amd64+: http://appjail.hpc.at/glances/13.2-amd64-image.appjail
