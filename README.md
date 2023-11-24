@@ -23,18 +23,9 @@ appjail makejail \
 
 ## How to build the Image
 
-Make any changes you want to your image.
-
-```
-INCLUDE gh+AppJail-makejails/glances --file build.makejail
-
-SYSRC glances_enable=YES
-```
-
-Build the jail:
-
 ```sh
 appjail makejail \
+    -f "gh+AppJAil-makejails/glances --file build.makejail" \
     -j glances \
     -o virtualnet=":glances default" \
     -o nat

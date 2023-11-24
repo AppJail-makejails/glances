@@ -7,3 +7,5 @@ COPY usr
 CMD pw useradd -n glances -c "An eye on your system" -d /var/db/glances -s /bin/sh
 CMD mkdir -p /var/db/glances
 CMD chown glances:glances /var/db/glances
+
+SYSRC glances_enable=YES
