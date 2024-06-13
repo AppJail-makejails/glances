@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-PKG py39-glances py39-bottle
+PKG py311-glances py311-bottle
 
 COPY usr
 
