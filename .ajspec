@@ -1,16 +1,17 @@
 tags+: 13.4
 13.4.arch: amd64
 13.4.name: "glances"
-13.4.timestamp.amd64: 1733891582
-13.4.sum.amd64: b0acb334e1cd7fcafd1d43ec669d12cb2a34475c9c4621bc6fe6c2e682972b34
-13.4.size.amd64: 72284156
+13.4.timestamp.amd64: 1734509697
+13.4.sum.amd64: db68cb76fee22a42d3928a817dab07199223507284f0ea2fd8f390cb0ea88ae8
+13.4.size.amd64: 72284041
 13.4.source.amd64: "http://appjail.hpc.at/glances/13.4-amd64-image.appjail"
 13.4.source.amd64+: "https://images.all101bsd.download/glances/13.4-amd64-image.appjail"
 tags+: 14.2
 14.2.arch: amd64
 14.2.name: "glances"
-14.2.timestamp.amd64: 1733891638
-14.2.sum.amd64: 5c326f2373f37c59059c5af6c5b5a886ea9406fdf03d60d44a05e4150aa6f8b2
-14.2.size.amd64: 71704777
+14.2.timestamp.amd64: 1734509735
+14.2.sum.amd64: 02dcd58f0edebb9d5c500dfaa6151328c0bebd8789c0e1d2ce9648cc09b3b2aa
+14.2.size.amd64: 71804371
 14.2.source.amd64: "http://appjail.hpc.at/glances/14.2-amd64-image.appjail"
 14.2.source.amd64+: "https://images.all101bsd.download/glances/14.2-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
