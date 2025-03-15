@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG glances_tag=13.4
+ARG glances_tag=13.5
 ARG glances_ajspec=gh+AppJail-makejails/glances
 
 FROM --entrypoint "${glances_ajspec}" glances:${glances_tag}
